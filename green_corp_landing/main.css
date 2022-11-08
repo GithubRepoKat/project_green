@@ -4,29 +4,11 @@ body {
     margin: 0;
     padding: 0;
 }
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-
-.header__logo {
-    height: 30px;
-}
-
+/* Общие стили */
 a {
     text-decoration: none;
     color: #213053;
 }
-
-header a {
-    font-size: 15px;
-    font-weight: 600;
-    margin-right: 25px;
-}
-
 button {
   font-family: 'Raleway', sans—serif;
   font-size: 15px;
@@ -43,16 +25,29 @@ button:hover{
   background-color: #f6980c;
   box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
 }
-
+/* Шапка */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.header__logo {
+    height: 30px;
+}
+header a {
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 25px;
+}
+/* секция about */
 .about__image {
   width: 500px;
 }
- 
 .about__sun-image {
   width: 100px;
   height: 100px;
 }
-
 .about {
   display: flex;
   justify-content: space-around;
@@ -63,29 +58,25 @@ button:hover{
   background-position: center;
   background-size: cover;
 }
-
 .about h1 {
   font-size: 70px;
   line-height: 76px;
 }
-
 .about p {
   font-size: 18px;
   line-height: 30px;
   opacity: 0.8;
 }
-
 .about button {
   font-size: 18px;
   border-radius: 20px;
   padding: 20px 25px;
   margin-top: 20px;
 }
-
 .about__info {
   max-width: 550px;
 }
-
+/* секция form */
 .form__container {
   width: 550px;
 }
@@ -141,13 +132,36 @@ select {
 input {
   outline: none;
 }
-
-
-
-
-
-
-
+/* подвал */
+footer{
+  padding: 90px 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer__container{
+  display: flex;
+  justify-content: center;
+}
+.footer__copyright{
+  padding-top: 40px;
+  text-align: center;
+  opacity: 0.5;
+}
+.footer__group{
+  margin-right: 80px;
+}
+h3{
+  font-size: 16px;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+div.footer__links{
+  display: flex;
+  flex-direction: column;
+}
+.footer__links a{
+  margin-bottom: 15px;
+}
 
 
 
