@@ -48,6 +48,7 @@ header a {
   width: 100px;
   height: 100px;
   animation: rotation 10s linear infinite;
+  position: absolute;
 }
 /* анимация */
 @keyframes rotation{
@@ -59,6 +60,7 @@ header a {
     transform: rotate(360deg);
   }
 }
+/* анимация закончилась */
 .about {
   display: flex;
   justify-content: space-around;
