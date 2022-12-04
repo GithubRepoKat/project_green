@@ -67,4 +67,34 @@
     .footer__container {
         flex-direction: column;
     }
+    .features {
+        padding: 50px 10px;
+      }
+    .cards {
+        grid-template-columns: auto;
+    }
+    .features__feedback{
+        flex-direction: column;
+      }
+    .features__feedback-left{
+        margin-right: 0;
+    }
+    .features__feedback-left h2,
+    .features__box h3{
+        font-size: 36px;
+    }
+    .features__feedback-right{
+        flex-direction: column;
+        align-items: initial;
+      }
+    .features__savings-box{
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+      
+
+
+
+
+
  }
