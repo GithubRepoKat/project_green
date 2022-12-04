@@ -177,9 +177,57 @@ header a {
 .stars{
   color: #ff7039;
 }
-
-
-
+/* секция promo */
+.promo {
+  display: flex;
+}
+.promo__image {
+  background-image: url(https://cs.sberbank-school.ru/inline?access_token=eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NzAyMzg0OTMsImlhdCI6MTY3MDE1MjA5MywiZmlsZV91dWlkIjoiZjVjZDVhY2UtMzI5OC0xMWVjLWI1ODMtMDI0MmFjMTYwMDAzIn0.Z7FclnHKR8J4UEL0TagBqn8BqBmEuHlqq8uZHvIkGmw);
+  width: 50%;
+  flex-shrink: 0;
+  background-size: cover;
+  background-position: center;
+}
+.promo__right{
+  border-color: #dd5f26;
+  padding: 160px 60px;
+}
+.promo__text{
+  background-color: white;
+  padding: 30px 40px;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+  border-radius: 25px;
+}
+.promo__text p{
+  opacity: 0.8;
+}
+.promo__text p::before{
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ec6b29;
+  margin-right: 10px;
+}
+.promo__text button{
+  border-color: #107b1c;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  box-shadow: 0 16px 36px rgb(16 122 28 / 30%);
+  padding: 15px 30px;
+}
+.promo__button-wrap {
+  display: flex;
+  justify-content: center;
+}
+.promo__text button i {
+  font-size: 15px;
+  margin-left: 5px;
+}
 /* секция form */
 .form__container {
   width: 550px;
