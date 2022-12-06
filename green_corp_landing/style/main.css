@@ -166,11 +166,14 @@ header a {
   font-size: 48px;
 }
 .features__savings-box{
+  /* height: 165px; */
+  height: 58%;
   background-color: #dc5e26;
   box-shadow: 0 6px 0 rgb(221 95 38 / 20%);
   margin-right: 30px;
 }
 .features__rate-box{
+  height: 58%;
   background-color: #1d263a;
   box-shadow: 0 6px 0 rgb(29 38 58 / 20%);
 }
